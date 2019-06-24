@@ -3,6 +3,7 @@
 // See http://cs.brown.edu/courses/cs123/lectures/08_Image_Processing_IV.pdf
 // for some of the theory behind image scaling and convolution
 
+use std::prelude::v1::*;
 use std::f32;
 
 use num_traits::{NumCast, ToPrimitive, Zero};

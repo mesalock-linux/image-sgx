@@ -29,6 +29,7 @@
 extern crate gif;
 extern crate num_rational;
 
+use std::prelude::v1::*;
 use std::clone::Clone;
 use std::cmp::min;
 use std::io::{self, Cursor, Read, Write};

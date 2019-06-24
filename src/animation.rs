@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use std::iter::Iterator;
 
 use num_rational::Ratio;

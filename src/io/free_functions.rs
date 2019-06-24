@@ -1,5 +1,6 @@
+use std::prelude::v1::*;
 use std::ffi::OsString;
-use std::fs::File;
+use std::untrusted::fs::File;
 use std::io;
 use std::io::{BufRead, BufReader, BufWriter, Seek};
 use std::path::Path;

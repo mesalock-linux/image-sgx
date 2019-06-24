@@ -1,5 +1,6 @@
 #![allow(clippy::too_many_arguments)]
 
+use std::prelude::v1::*;
 use std::error::Error;
 use std::fmt;
 use std::io;

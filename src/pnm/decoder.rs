@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use std::io::{self, BufRead, BufReader, Cursor, Read};
 use std::str::{self, FromStr};
 use std::fmt::Display;

@@ -1,4 +1,5 @@
 //! Insert line breaks between written buffers when they would overflow the line length.
+use std::prelude::v1::*;
 use std::io;
 
 // The pnm standard says to insert line breaks after 70 characters. Assumes that no line breaks

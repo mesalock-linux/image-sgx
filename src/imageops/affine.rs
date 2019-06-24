@@ -1,5 +1,6 @@
 //! Functions for performing affine transformations.
 
+use std::prelude::v1::*;
 use buffer::{ImageBuffer, Pixel};
 use image::{GenericImage, GenericImageView};
 

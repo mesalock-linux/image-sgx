@@ -1,5 +1,6 @@
 //! Functions for altering and converting the color of pixelbufs
 
+use std::prelude::v1::*;
 use buffer::{ImageBuffer, Pixel};
 use color::{Luma, Rgba};
 use image::{GenericImage, GenericImageView};
