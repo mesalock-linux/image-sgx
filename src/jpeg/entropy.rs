@@ -1,6 +1,8 @@
 /// Given an array containing the number of codes of each code length,
 /// this function generates the huffman codes lengths and their respective
 /// code lengths as specified by the JPEG spec.
+use std::prelude::v1::*;
+
 fn derive_codes_and_sizes(bits: &[u8]) -> (Vec<u8>, Vec<u16>) {
     let mut huffsize = vec![0u8; 256];
     let mut huffcode = vec![0u16; 256];

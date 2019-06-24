@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use std::{cmp, mem};
 use std::io::{self, Cursor, Read, Seek, SeekFrom};
 use std::iter::{repeat, Iterator, Rev};

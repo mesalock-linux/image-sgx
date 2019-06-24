@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use byteorder::{LittleEndian, WriteBytesExt};
 use std::io::{self, Write};
 

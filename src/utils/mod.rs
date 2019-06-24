@@ -1,5 +1,6 @@
 //!  Utilities
 
+use std::prelude::v1::*;
 use byteorder::{NativeEndian, ByteOrder};
 use num_iter::range_step;
 use std::mem;

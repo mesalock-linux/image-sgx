@@ -41,6 +41,7 @@
 //! }
 //! ```
 //! 
+use std::prelude::v1::*;
 use std::cmp;
 use std::ops::{Deref, Index, IndexMut};
 use std::marker::PhantomData;

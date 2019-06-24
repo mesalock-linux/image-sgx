@@ -8,6 +8,7 @@
 
 extern crate png;
 
+use std::prelude::v1::*;
 use std::io::{self, Read, Write};
 
 use color::ColorType;

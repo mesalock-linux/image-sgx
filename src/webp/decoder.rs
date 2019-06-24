@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use byteorder::{LittleEndian, ReadBytesExt};
 use std::default::Default;
 use std::io::{self, Cursor, Read};

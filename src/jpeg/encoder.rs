@@ -1,5 +1,6 @@
 #![cfg_attr(feature = "cargo-clippy", allow(too_many_arguments))]
 
+use std::prelude::v1::*;
 use byteorder::{BigEndian, WriteBytesExt};
 use math::utils::clamp;
 use num_iter::range_step;

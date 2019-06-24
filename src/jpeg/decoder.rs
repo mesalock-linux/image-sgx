@@ -1,5 +1,6 @@
 extern crate jpeg_decoder;
 
+use std::prelude::v1::*;
 use std::io::{self, Cursor, Read};
 use std::marker::PhantomData;
 use std::mem;
@@ -115,6 +116,7 @@ impl From<jpeg_decoder::PixelFormat> for ColorType {
 }
 
 impl From<jpeg_decoder::Error> for ImageError {
+    #[allow(deprecated)]
     fn from(err: jpeg_decoder::Error) -> ImageError {
         use self::jpeg_decoder::Error::*;
         match err {

@@ -12,6 +12,7 @@
 //! of the VP8 format
 //!
 
+use std::prelude::v1::*;
 use byteorder::{LittleEndian, ReadBytesExt};
 use std::default::Default;
 use std::cmp;

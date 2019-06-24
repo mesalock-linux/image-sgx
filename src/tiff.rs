@@ -8,6 +8,7 @@
 
 extern crate tiff;
 
+use std::prelude::v1::*;
 use std::io::{self, Cursor, Read, Write, Seek};
 use std::marker::PhantomData;
 use std::mem;
